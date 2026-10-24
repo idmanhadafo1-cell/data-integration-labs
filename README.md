@@ -1,23 +1,18 @@
-# data-integration-labs
-This repository is for the class in TH Cologne `3.3 Data Intergration`
-### Username: Idmanhadafo1-cell
-+ COURSE : https://github.com/breuert/data-integration/blob/main/labs/open_source_software_and_open_data.md
-+ PROFILE : https://github.com/idmanhadafo1-cell 
 # Data Integration Labs
 
-Dieses Repository enthält meine Abgaben für die Labs im Kurs Data Integration.
+This repository contains my lab submissions for the course Data Integration at TH Köln.
 
-**Autor:** [idman](https://github.com/DEIN-USERNAME)
-**Kurs:** [Kurs-Repository](https://github.com/breuert/data-integration/tree/main)
-**Team-Projekt:** folgt
+- **Author:** [idmanhadafo1-cell](https://github.com/idmanhadafo1-cell)
+- **Course:** [breuert/data-integration](https://github.com/breuert/data-integration)
+- **Team project:** coming soon
 
 ## Labs
 
-| Nr. | Thema | Ordner |
+| No. | Topic | Folder |
 |-----|-------|--------|
-| 01 | Open Source Software und Open Data | [labs/01/](https://github.com/breuert/data-integration/blob/main/labs/open_source_software_and_open_data.md) |
+| 01 | Open Source Software and Open Data | [labs/01/](https://github.com/breuert/data-integration/blob/main/labs/open_source_software_and_open_data.md) |
 
 ## Licence
 
-Der Code in diesem Repository steht unter der MIT-Lizenz (siehe [LICENSE](LICENSE)).
-Daten aus anderen Quellen behalten ihre eigene Lizenz.
+The code in this repository is licensed under the MIT License (see [LICENSE](LICENSE)).
+Data from other sources keeps its own licence.
