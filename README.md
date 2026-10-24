@@ -15,7 +15,7 @@ Dieses Repository enthält meine Abgaben für die Labs im Kurs Data Integration.
 
 | Nr. | Thema | Ordner |
 |-----|-------|--------|
-| 01 | Open Source Software und Open Data | [labs/01/](labs/01/) |
+| 01 | Open Source Software und Open Data | [labs/01/](https://github.com/breuert/data-integration/blob/main/labs/open_source_software_and_open_data.md) |
 
 ## Licence
 
