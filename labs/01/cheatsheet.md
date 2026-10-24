@@ -23,7 +23,7 @@ My personal Markdown reference for this semester. Every entry shows what a featu
 
 ### Headings
 
-**CommonMark** – A `#` at the start of a line makes a heading; more `#` (up to six) make it smaller.
+**CommonMark** · A `#` at the start of a line makes a heading; more `#` (up to six) make it smaller.
 
 ```markdown
 #### A level-4 heading
@@ -33,7 +33,7 @@ My personal Markdown reference for this semester. Every entry shows what a featu
 
 ### Paragraphs and line breaks
 
-**CommonMark** – An empty line starts a new paragraph. A backslash (or two spaces) at the end of a line makes a line break inside a paragraph.
+**CommonMark** · An empty line starts a new paragraph. A backslash (or two spaces) at the end of a line makes a line break inside a paragraph. Without it, a `.md` file joins the lines; in issues, pull requests and comments GitHub keeps every line break.
 
 ```markdown
 First line\
@@ -49,7 +49,7 @@ A new paragraph.
 
 ### Italic, bold and both
 
-**CommonMark** – One star for italic, two for bold, three for both.
+**CommonMark** · One star for italic, two for bold, three for both.
 
 ```markdown
 *italic*, **bold**, ***bold and italic***
@@ -59,7 +59,7 @@ A new paragraph.
 
 ### Strikethrough
 
-**GitHub** – Two tildes on each side cross the text out.
+**GitHub** · Two tildes on each side cross the text out.
 
 ```markdown
 ~~no longer valid~~
@@ -69,7 +69,7 @@ A new paragraph.
 
 ### Inline code
 
-**CommonMark** – Backticks mark code inside a sentence.
+**CommonMark** · Backticks mark code inside a sentence.
 
 ```markdown
 Run `git status` to see your changes.
@@ -79,7 +79,7 @@ Run `git status` to see your changes.
 
 ### Escaping a character
 
-**CommonMark** – A backslash shows a special character as it is instead of formatting.
+**CommonMark** · A backslash shows a special character as it is instead of formatting.
 
 ```markdown
 \*not italic\*
@@ -93,7 +93,7 @@ Run `git status` to see your changes.
 
 ### Unordered, ordered and nested lists
 
-**CommonMark** – `-` makes bullet points, numbers make a numbered list, indenting nests a list.
+**CommonMark** · `-` makes bullet points, numbers make a numbered list, indenting nests a list.
 
 ```markdown
 1. Fruit
@@ -111,7 +111,7 @@ Run `git status` to see your changes.
 
 ### Task lists
 
-**GitHub** – `[ ]` and `[x]` in a list make checkboxes.
+**GitHub** · `[ ]` and `[x]` in a list make checkboxes.
 
 ```markdown
 - [x] Create repository
@@ -127,7 +127,7 @@ Run `git status` to see your changes.
 
 ### Inline and reference-style links
 
-**CommonMark** – An inline link has the URL right after the text; a reference link defines the URL somewhere else in the file.
+**CommonMark** · An inline link has the URL right after the text; a reference link defines the URL somewhere else in the file.
 
 ```markdown
 [Course repository](https://github.com/breuert/data-integration)
@@ -143,7 +143,7 @@ and the [CommonMark spec][spec].
 
 ### Relative link to another file
 
-**CommonMark** – A path instead of a URL links to a file in the same repository; `../` goes up one folder.
+**CommonMark** · A path instead of a URL links to a file in the same repository; `../` goes up one folder.
 
 ```markdown
 See the [licence](../../LICENSE) of this repository.
@@ -153,7 +153,7 @@ See the [licence](../../LICENSE) of this repository.
 
 ### Link to a section
 
-**GitHub** – `#` plus the heading in lowercase, with spaces as `-`, jumps to that heading. GitHub creates these anchors automatically; the dingus does not.
+**GitHub** · `#` plus the heading in lowercase, with spaces as `-`, jumps to that heading. GitHub creates these anchors automatically; the dingus does not.
 
 ```markdown
 Back to the [contents](#contents).
@@ -163,7 +163,7 @@ Back to the [contents](#contents).
 
 ### Image with alt text
 
-**CommonMark** – Like a link with `!` in front; the text in brackets is shown if the image cannot load and is read out by screen readers.
+**CommonMark** · Like a link with `!` in front; the text in brackets is shown if the image cannot load and is read out by screen readers.
 
 ```markdown
 ![GitHub Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
@@ -173,7 +173,7 @@ Back to the [contents](#contents).
 
 ### Image that is a link
 
-**CommonMark** – Put the image inside the brackets of a link.
+**CommonMark** · Put the image inside the brackets of a link.
 
 ```markdown
 [![GitHub Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)](https://github.com)
@@ -187,7 +187,7 @@ Back to the [contents](#contents).
 
 ### Fenced code blocks with syntax highlighting
 
-**GitHub** – Three backticks start and end a code block (CommonMark). The language name after the backticks adds colours, which only GitHub shows.
+**GitHub** · Three backticks start and end a code block (CommonMark). The language name after the backticks adds colours, which only GitHub shows.
 
 ````markdown
 ```python
@@ -221,7 +221,7 @@ git add .
 
 ### Blockquotes, nested and with formatting
 
-**CommonMark** – `>` makes a quote, `>>` nests it, and formatting works inside.
+**CommonMark** · `>` makes a quote, `>>` nests it, and formatting works inside.
 
 ```markdown
 > A quote with **bold** text.
@@ -233,7 +233,7 @@ git add .
 
 ### Alerts
 
-**GitHub** – A quote starting with `[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]` or `[!CAUTION]` becomes a coloured box.
+**GitHub** · A quote starting with `[!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]` or `[!CAUTION]` becomes a coloured box.
 
 ```markdown
 > [!TIP]
@@ -249,7 +249,7 @@ git add .
 
 ### Table with aligned columns, a link and a `|`
 
-**GitHub** – Pipes separate columns, the second line separates the header. Colons set the alignment. A `|` inside a cell must be escaped with `\`.
+**GitHub** · Pipes separate columns, the second line separates the header. Colons set the alignment. A `|` inside a cell must be escaped with `\`.
 
 ```markdown
 | Left | Centre | Right |
@@ -267,7 +267,7 @@ git add .
 
 ### Horizontal rule
 
-**CommonMark** – Three dashes on their own line draw a line. Leave an empty line above, otherwise the text above becomes a heading.
+**CommonMark** · Three dashes on their own line draw a line. Leave an empty line above, otherwise the text above becomes a heading.
 
 ```markdown
 Text above
@@ -285,7 +285,7 @@ Text below
 
 ### Collapsed sections
 
-**CommonMark** – The HTML tags `<details>` and `<summary>` make a section that opens on click. Leave an empty line after `</summary>` so Markdown inside still works.
+**CommonMark** · The HTML tags `<details>` and `<summary>` make a section that opens on click. Leave an empty line after `</summary>` so Markdown inside still works.
 
 ```markdown
 <details>
@@ -305,7 +305,7 @@ Hidden **content**.
 
 ### Comments that do not render
 
-**CommonMark** – Text between `<!--` and `-->` stays in the file but is not shown.
+**CommonMark** · Text between `<!--` and `-->` stays in the file but is not shown.
 
 ```markdown
 Visible text <!-- invisible note -->
@@ -319,7 +319,7 @@ Visible text <!-- invisible note -->
 
 ### Footnotes
 
-**GitHub** – `[^1]` adds a footnote number; the note itself appears at the bottom of the page.
+**GitHub** · `[^1]` adds a footnote number; the note itself appears at the bottom of the page.
 
 ```markdown
 Markdown was created in 2004.[^1]
@@ -333,7 +333,7 @@ Markdown was created in 2004.[^1]
 
 ### Emoji shortcodes
 
-**GitHub** – A name between colons becomes an emoji.
+**GitHub** · A name between colons becomes an emoji.
 
 ```markdown
 :rocket: :tada:
@@ -343,7 +343,7 @@ Markdown was created in 2004.[^1]
 
 ### @mentions and references to issues
 
-**GitHub** – `@username` links to a person, `#number` to an issue or pull request in this repository.
+**GitHub** · `@username` links to a person, `#number` to an issue or pull request in this repository. Where they work (my test): in a comment on an issue they become links; in this `.md` file → *check and write down what happens*.
 
 ```markdown
 Thanks @breuert, see issue #1.
@@ -353,7 +353,7 @@ Thanks @breuert, see issue #1.
 
 ### Mermaid diagram
 
-**GitHub** – A code block with the language `mermaid` is drawn as a diagram.
+**GitHub** · A code block with the language `mermaid` is drawn as a diagram.
 
 ````markdown
 ```mermaid
@@ -369,7 +369,7 @@ flowchart LR
 
 ### Formula
 
-**GitHub** – LaTeX between `$` (inline) or `$$` (own line) is shown as a formula.
+**GitHub** · LaTeX between `$` (inline) or `$$` (own line) is shown as a formula.
 
 ```markdown
 Inline: $E = mc^2$
@@ -393,3 +393,4 @@ $$
 2. **Horizontal rule turned into a heading** – `---` directly under a line of text made that text a heading. Fix: leave an empty line above `---`.
 3. **Markdown inside `<details>` did not render** – Bold text showed the stars. Fix: leave an empty line after `</summary>`.
 4. **Tables, strikethrough and task lists did not work in the dingus** – They are GitHub extensions, not part of CommonMark, so I labelled them **GitHub**.
+5. **My line break disappeared** – Two lines in the `.md` file were shown as one. Fix: end the line with a backslash, or leave a blank line.
