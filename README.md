@@ -8,7 +8,7 @@ This repository is for the class in TH Cologne `3.3 Data Intergration`
 Dieses Repository enthält meine Abgaben für die Labs im Kurs Data Integration.
 
 **Autor:** [idman](https://github.com/DEIN-USERNAME)
-**Kurs:** [Kurs-Repository](LINK-ZUM-KURS-REPO)
+**Kurs:** [Kurs-Repository](https://github.com/breuert/data-integration/tree/main)
 **Team-Projekt:** folgt
 
 ## Labs
