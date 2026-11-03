@@ -10,7 +10,9 @@ This repository contains my lab submissions for the course Data Integration at T
 
 | No. | Topic | Folder |
 |-----|-------|--------|
-| 01 | Open Source Software and Open Data | [labs/01/](https://github.com/breuert/data-integration/blob/main/labs/open_source_software_and_open_data.md) |
+| 01 | Open Source Software and Open Data | [labs/01/](labs/01/) |
+
+In Lab 01, `dataset.md` profiles my team's dataset candidate (Wikipedia page views for our project on concert ticket prices). `dataset-fahrrad.md` is my first practice profile on bicycle traffic in Cologne.
 
 ## Licence
 
